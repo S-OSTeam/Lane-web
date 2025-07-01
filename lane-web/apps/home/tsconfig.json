@@ -19,7 +19,12 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@auth/*": ["../auth/app/*"],
+      "@clip/*": ["../clip/app/*"],
+      "@community/*": ["../community/app/*"],
+      "@home/*": ["../home/app/*"],
+      "@management/*": ["../management/app/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
