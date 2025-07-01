@@ -1,7 +1,14 @@
-export default function Home() {
+'use client';
+
+import {useSomething} from "@custom/hooks";
+
+export default function Auth() {
+    const { count, increment } = useSomething();
+
     return (
         <div>
-            auth
+            <p>Count: {count}</p>
+            <button onClick={increment}>Increment</button>
         </div>
     );
 }
