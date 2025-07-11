@@ -1,0 +1,9 @@
+// alias 지정
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@custom/hooks": ["packages/hooks"]
+    }
+  }
+}
